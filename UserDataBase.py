@@ -119,7 +119,7 @@ class UserDataBase:
                 positions_path = os.path.join(self.path_database, patient_name, 'Positions')
 
                 # Set the file name of position
-                board_to_load =  f'Board{board_id}Trial1.csv'
+                board_to_load =  f'Board{board_id}.csv'
 
                 path_to_board = os.path.join(positions_path, board_to_load)
 
@@ -772,7 +772,7 @@ class UserDataBase:
             green_balls = 0
             red_balls = 0
 
-            collision_file = open(os.path.join(user_collisions_path, f'Board{board_id}Trial1.csv'))
+            collision_file = open(os.path.join(user_collisions_path, f'Board{board_id}.csv'))
 
             collision_file.readline()
 
@@ -825,7 +825,7 @@ class UserDataBase:
 
     def _get_path_to_board(self, patient_name:str, board_id:str):
         user_path = os.path.join(self.path_database, patient_name, 'Positions')
-        board_to_load = f'Board{board_id}Trial1.csv'
+        board_to_load = f'Board{board_id}.csv'
 
         path_to_board = os.path.join(user_path, board_to_load)
 
@@ -950,3 +950,4 @@ class UserDataBase:
         avg_metric = metric_column.mean()
 
         return avg_metric
+
