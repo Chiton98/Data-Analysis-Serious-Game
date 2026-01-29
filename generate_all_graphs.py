@@ -88,7 +88,8 @@ def generate_avg_metrics_all_boards(data_base:UserDataBase):
 # ---------------- MAIN PROGRAM ---------------- 
 
 # 1. Initiliaze the database
-DATASET_DIRECTORY = os.path.join(os.getcwd(), "../DataV1")
+data_folder = "Data"
+DATASET_DIRECTORY = os.path.join(os.getcwd(), data_folder)
 my_data_base = UserDataBase(DATASET_DIRECTORY)
 
 # 2. Load the data of the data base
@@ -106,4 +107,5 @@ functions_to_generate = [generate_avg_metrics_all_boards]
 
 for i in range(len(functions_to_generate)):
     f = functions_to_generate[i]
+
     f(my_data_base)
