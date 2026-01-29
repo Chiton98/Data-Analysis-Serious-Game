@@ -1,0 +1,4 @@
+CompletedOrder,Identifier,Figure,SizeBoard,BallSeparation,BallSize,Score,CompletedTime,NJS,Avg. Speed,StdDevSpeed,Avg. Acc,StdDevAcce
+1,c1,Cuadrado,2,80,30,0,15.10193,15.00599,141.0461,127.9284,7699.651,197937.6
+2,c3,LetraZ,1,80,30,0,15.16339,9.920591,160.9211,130.0523,817.6877,730.6198
+3,c5,LetraZ,3,80,30,0,15.13219,9.550834,335.6373,138.5627,995.5063,875.6512
