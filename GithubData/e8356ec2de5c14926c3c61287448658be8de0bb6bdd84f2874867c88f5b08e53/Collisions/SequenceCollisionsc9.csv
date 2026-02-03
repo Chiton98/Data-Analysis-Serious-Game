@@ -1,0 +1,4 @@
+Col. k, Type Ball k, Pos. Ball k, Time until collision k + 1,                               Type Ball k+1, Pos. Ball k+1, NJS, ArcLenghRatio, Avg. Speed, Std. Dev. Speed, Avg. Acce., Std. Dev. Acce.
+0,Origin,(Do not apply-Do not apply),2.150,Green, (2-1),4.253555,5.140439,89.01871,114.2331,4156.06,7666.724
+1,Green,(2-1),1.300,Green, (1-0),3.669649,2.516846,118.9229,114.286,5328.94,7971.263
+2,Green,(1-0),0.860,Green, (0-1),3.116015,1.585202,72.95285,50.14601,3536.925,3867.814
