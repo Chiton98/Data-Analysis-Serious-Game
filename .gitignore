@@ -1,0 +1,11 @@
+GithubData/*
+
+Scripts/ResultsGithubDataSet.zip
+Scripts/.pylintrc
+
+
+README - ES.md
+README - EN.md
+Proceso.md
+
+__pycache__/
